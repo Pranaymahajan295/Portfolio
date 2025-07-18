@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="../CSS/project.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="blog-header">
+            <h1 class="blog-title">HTML</h1>
+            <p class="blog-subtitle">
+                Explore the My projects on building modern web applications with HTML, CSS, and JavaScript.
+            </p>
+        </header>
+
+        <div class="search-container">
+            <input 
+                type="text" 
+                class="search-input" 
+                placeholder="Search articles..."
+                id="searchInput"
+            >
+        </div>
+
+        <div class="blog-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="design">HTML</button>
+            <button class="filter-btn" data-filter="development">CSS</button>
+            <button class="filter-btn" data-filter="ui-ux">JS</button>
+            <button class="filter-btn" data-filter="trends">Boostrap</button>
+        </div>
+
+        <div class="blog-posts" id="blogPosts">
+            <article class="blog-post-item" data-category="design">
+                <a href="#" class="blog-post-link">
+                    <div class="blog-banner-box">
+                        <div class="blog-category-badge">HTML</div>
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop" alt="Design conferences in 2025" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2025-01-15">Jan 15, 2025</time>
+                            <span class="dot"></span>
+                            <span>5 min read</span>
+                        </div>
+                        <h3 class="blog-item-title">HTML5.2 </h3>
+                        <p class="blog-text">
+                            Discover the most influential design conferences happening this year, featuring cutting-edge trends and industry leaders.
+                        </p>
+                        <span class="read-more">Read More →</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="blog-post-item" data-category="development">
+                <a href="#" class="blog-post-link">
+                    <div class="blog-banner-box">
+                        <div class="blog-category-badge">CSS</div>
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop" alt="Modern JavaScript frameworks" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2025-01-12">Jan 12, 2025</time>
+                            <span class="dot"></span>
+                            <span>8 min read</span>
+                        </div>
+                        <h3 class="blog-item-title">CSS 3</h3>
+                        <p class="blog-text">
+                            Exploring the latest JavaScript frameworks and their impact on modern web development practices.
+                        </p>
+                        <span class="read-more">Read More →</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="blog-post-item" data-category="ui-ux">
+                <a href="#" class="blog-post-link">
+                    <div class="blog-banner-box">
+                        <div class="blog-category-badge">Js</div>
+                        <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=500&h=300&fit=crop" alt="UI design principles" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2025-01-10">Jan 10, 2025</time>
+                            <span class="dot"></span>
+                            <span>6 min read</span>
+                        </div>
+                        <h3 class="blog-item-title">JS ES6</h3>
+                        <p class="blog-text">
+                            Learn how subtle animations and micro-interactions can dramatically improve user experience and engagement.
+                        </p>
+                        <span class="read-more">Read More →</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="blog-post-item" data-category="trends">
+                <a href="#" class="blog-post-link">
+                    <div class="blog-banner-box">
+                        <div class="blog-category-badge">Boostrap</div>
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=500&h=300&fit=crop" alt="Web design trends 2025" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2025-01-08">Jan 8, 2025</time>
+                            <span class="dot"></span>
+                            <span>7 min read</span>
+                        </div>
+                        <h3 class="blog-item-title">Boostrap (Frameworks)</h3>
+                        <p class="blog-text">
+                            From glassmorphism to AI-generated content, explore the design trends shaping the web this year.
+                        </p>
+                        <span class="read-more">Read More →</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="blog-post-item" data-category="design">
+                <a href="#" class="blog-post-link">
+                    <div class="blog-banner-box">
+                        <div class="blog-category-badge">Node Js</div>
+                        <img src="https://images.unsplash.com/photo-1524749292158-7540c2494485?w=500&h=300&fit=crop" alt="Typography in web design" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2025-01-05">Jan 5, 2025</time>
+                            <span class="dot"></span>
+                            <span>4 min read</span>
+                        </div>
+                        <h3 class="blog-item-title">Node JS</h3>
+                        <p class="blog-text">
+                            Master the principles of typography to create more engaging and readable digital experiences.
+                        </p>
+                        <span class="read-more">Read More →</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="blog-post-item" data-category="development">
+                <a href="#" class="blog-post-link">
+                    <div class="blog-banner-box">
+                        <div class="blog-category-badge">Testing</div>
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop" alt="Performance optimization" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time datetime="2025-01-02">Jan 2, 2025</time>
+                            <span class="dot"></span>
+                            <span>10 min read</span>
+                        </div>
+                        <h3 class="blog-item-title">Manual Testing</h3>
+                        <p class="blog-text">
+                            Essential techniques to improve your website's loading speed and overall performance metrics.
+                        </p>
+                        <span class="read-more">Read More →</span>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+        <div class="no-results hidden">
+            <h3>No articles found</h3>
+            <p>Try adjusting your search terms or browse all categories.</p>
+        </div>
+
+        <button class="load-more-btn">Load More Articles</button>
+    </div>
+
+    <script src="../Js/project.js"></script>
+</body>
+</html>
